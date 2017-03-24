@@ -107,10 +107,6 @@
         <scene sceneID="JGg-sQ-SyA">
             <objects>
                 <viewController id="l5B-Jh-heM" customClass="MapViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
-                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="66D-6d-Jof">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </mapView>
                     <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="dx3-m3-Ama"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4zE-U1-HYw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -123,6 +119,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="0VU-4Q-GZj" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="G6w-jG-Oca">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
