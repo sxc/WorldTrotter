@@ -40,9 +40,13 @@
 		340EE49E1E8366EA00C64BF7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		342D40F01E88CD0000B22506 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		342D40F11E88CF3A00B22506 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		344657721E88DDB200ED7347 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		344657731E88DDB200ED7347 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		344A8EC41E88D31F00683DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		344A8EC61E88D35A00683DDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		344A8EC71E88D35B00683DDC /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		344A8EC81E88D45200683DDC /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		344A8EC91E88DA6E00683DDC /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		3458E8E01E82212300D123EC /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		346BC86F1E80B45D0049EAC7 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		346BC8721E80B45D0049EAC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -237,6 +241,8 @@
 				en,
 				Base,
 				es,
+				"zh-Hant",
+				"zh-Hans",
 			);
 			mainGroup = 346BC8661E80B45C0049EAC7;
 			productRefGroup = 346BC8701E80B45D0049EAC7 /* Products */;
@@ -327,6 +333,8 @@
 				344A8EC41E88D31F00683DDC /* Base */,
 				344A8EC61E88D35A00683DDC /* en */,
 				344A8EC71E88D35B00683DDC /* es */,
+				344A8EC91E88DA6E00683DDC /* zh-Hant */,
+				344657731E88DDB200ED7347 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -337,6 +345,8 @@
 				346BC8771E80B45D0049EAC7 /* Base */,
 				342D40F01E88CD0000B22506 /* en */,
 				342D40F11E88CF3A00B22506 /* es */,
+				344A8EC81E88D45200683DDC /* zh-Hant */,
+				344657721E88DDB200ED7347 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
