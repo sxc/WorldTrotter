@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		340EE49F1E8366EA00C64BF7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 340EE49E1E8366EA00C64BF7 /* MapKit.framework */; };
-		34175F471E84C4DB0088F7BB /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34175F461E84C4DB0088F7BB /* WebViewController.swift */; };
 		3458E8E11E82212300D123EC /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458E8E01E82212300D123EC /* ConversionViewController.swift */; };
 		346BC8731E80B45D0049EAC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346BC8721E80B45D0049EAC7 /* AppDelegate.swift */; };
 		346BC8781E80B45D0049EAC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346BC8761E80B45D0049EAC7 /* Main.storyboard */; };
@@ -38,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		340EE49E1E8366EA00C64BF7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		34175F461E84C4DB0088F7BB /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		3458E8E01E82212300D123EC /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		346BC86F1E80B45D0049EAC7 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		346BC8721E80B45D0049EAC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -120,7 +118,6 @@
 				346BC87E1E80B45D0049EAC7 /* Info.plist */,
 				3458E8E01E82212300D123EC /* ConversionViewController.swift */,
 				348856DB1E839DA500F147C7 /* MapViewController.swift */,
-				34175F461E84C4DB0088F7BB /* WebViewController.swift */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";
@@ -280,7 +277,6 @@
 				3458E8E11E82212300D123EC /* ConversionViewController.swift in Sources */,
 				348856DC1E839DA500F147C7 /* MapViewController.swift in Sources */,
 				346BC8731E80B45D0049EAC7 /* AppDelegate.swift in Sources */,
-				34175F471E84C4DB0088F7BB /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,25 +22,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjJ-NS-roy">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjJ-NS-roy">
                                 <rect key="frame" x="128" y="171" width="119" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWl-5y-uAf">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWl-5y-uAf">
                                 <rect key="frame" x="130" y="222" width="117" height="84"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <color key="textColor" red="0.88235294119999996" green="0.34509803919999998" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1nD-G7-x4W">
-                                <rect key="frame" x="61" y="314" width="254" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius degrees" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1nD-G7-x4W">
+                                <rect key="frame" x="17" y="314" width="342" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294119999996" green="0.34509803919999998" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBe-qV-xLb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBe-qV-xLb">
                                 <rect key="frame" x="35" y="120" width="306" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -63,10 +64,12 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="1nD-G7-x4W" firstAttribute="centerX" secondItem="VBe-qV-xLb" secondAttribute="centerX" id="0dy-75-C1l"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="PWl-5y-uAf" secondAttribute="trailing" id="3DL-t9-uNj"/>
                             <constraint firstItem="PWl-5y-uAf" firstAttribute="top" secondItem="pjJ-NS-roy" secondAttribute="bottom" constant="8" id="6jR-Hl-6Um"/>
                             <constraint firstItem="1nD-G7-x4W" firstAttribute="centerX" secondItem="VBe-qV-xLb" secondAttribute="centerX" id="8lS-Kh-hjb"/>
                             <constraint firstItem="1nD-G7-x4W" firstAttribute="top" secondItem="PWl-5y-uAf" secondAttribute="bottom" constant="8" id="BeO-mf-i5V"/>
                             <constraint firstItem="aOI-vx-qUR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Crl-83-CBx"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="pjJ-NS-roy" secondAttribute="trailing" id="Ewc-1h-Jdj"/>
                             <constraint firstItem="VBe-qV-xLb" firstAttribute="centerX" secondItem="aOI-vx-qUR" secondAttribute="centerX" id="Kna-Ko-19r"/>
                             <constraint firstItem="pjJ-NS-roy" firstAttribute="centerX" secondItem="VBe-qV-xLb" secondAttribute="centerX" id="Lon-un-Tao"/>
                             <constraint firstItem="aOI-vx-qUR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="MaU-H3-6MN"/>
@@ -78,10 +81,16 @@
                             <constraint firstItem="1nD-G7-x4W" firstAttribute="centerX" secondItem="aOI-vx-qUR" secondAttribute="centerX" id="YQx-QT-pXc"/>
                             <constraint firstItem="PWl-5y-uAf" firstAttribute="top" secondItem="pjJ-NS-roy" secondAttribute="bottom" constant="8" id="ZdI-W6-qAH"/>
                             <constraint firstItem="aOI-vx-qUR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bxW-7E-7n3"/>
+                            <constraint firstItem="PWl-5y-uAf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dP4-nI-xww"/>
                             <constraint firstItem="VBe-qV-xLb" firstAttribute="top" secondItem="aOI-vx-qUR" secondAttribute="bottom" constant="8" id="dqD-vQ-4hI"/>
+                            <constraint firstItem="1nD-G7-x4W" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="e6B-NY-sL9"/>
+                            <constraint firstItem="VBe-qV-xLb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eKV-Qq-zbV"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="VBe-qV-xLb" secondAttribute="trailing" id="fi4-f2-2sS"/>
                             <constraint firstItem="pjJ-NS-roy" firstAttribute="centerX" secondItem="VBe-qV-xLb" secondAttribute="centerX" id="g0c-VH-8db"/>
+                            <constraint firstItem="pjJ-NS-roy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lKs-2D-lYs"/>
                             <constraint firstItem="PWl-5y-uAf" firstAttribute="centerX" secondItem="aOI-vx-qUR" secondAttribute="centerX" id="tLo-eL-4lv"/>
                             <constraint firstItem="pjJ-NS-roy" firstAttribute="centerX" secondItem="aOI-vx-qUR" secondAttribute="centerX" id="tVK-YW-lw0"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="1nD-G7-x4W" secondAttribute="trailing" id="vbL-Br-Uwn"/>
                             <constraint firstItem="pjJ-NS-roy" firstAttribute="top" secondItem="VBe-qV-xLb" secondAttribute="bottom" constant="8" id="xwe-1g-DW7"/>
                         </constraints>
                         <connections>
@@ -113,25 +122,6 @@
             </objects>
             <point key="canvasLocation" x="1956" y="121.88905547226388"/>
         </scene>
-        <!--Web-->
-        <scene sceneID="bx8-G3-Lqz">
-            <objects>
-                <viewController id="TZk-v1-3pC" customClass="WebViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="b2n-jr-lLL"/>
-                        <viewControllerLayoutGuide type="bottom" id="j10-jc-3PY"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ztA-Dz-0yW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Web" id="Pmd-Cu-jSA"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FiU-zw-DCk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2795" y="118"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="BOi-8j-Jda">
             <objects>
@@ -145,7 +135,6 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="4X9-YY-WgH"/>
                         <segue destination="l5B-Jh-heM" kind="relationship" relationship="viewControllers" id="C3o-WF-XqF"/>
-                        <segue destination="TZk-v1-3pC" kind="relationship" relationship="viewControllers" id="BWj-YC-2BP"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xlS-SZ-IwH" userLabel="First Responder" sceneMemberID="firstResponder"/>
